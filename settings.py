@@ -29,11 +29,14 @@ class Settings:
         self.bullet_speed = 10.0
         self.alien_speed = 3.0
         self.fleet_direction = 1 # 1 means right, -1 means left
+        # Scoring
+        self.alien_points = 50
 
     def speed_up(self):
         """Speed up the game."""
         self.ship_speed *= self.speedup_scale
         self.alien_speed *= self.speedup_scale
         self.bullet_speed *= self.speedup_scale
+        self.alien_points *= self.speedup_scale
 
 
