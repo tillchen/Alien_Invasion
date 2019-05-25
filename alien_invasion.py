@@ -74,6 +74,9 @@ class AlienInvasion:
         elif event.key == pygame.K_LEFT:
             self.ship.moving_left = True # set the flag to true
         elif event.key == pygame.K_q: # press q to quit
+            # Save the high score before quiting
+            with open("high_score.txt", "w") as file_obj:
+                file_obj.write(str(self.stats.high_score))
             sys.exit()
         elif event.key == pygame.K_SPACE:
             self._fire_bullet()
@@ -95,6 +98,7 @@ class AlienInvasion:
             self.stats.game_active = True
             self.scoreboard.prep_score()
             self.scoreboard.prep_level()
+            self.scoreboard.prep_ships()
             # Purge aliens and bullets.
             self.aliens.empty()
             self.bullets.empty()
@@ -161,8 +165,10 @@ class AlienInvasion:
 
     def _ship_hit(self): # helper method
         """Respond to ship being hit by an alien."""
-        if self.stats.ships_left > 1:
-            self.stats.ships_left -= 1
+        # Decrement and update the scoreboard
+        self.stats.ships_left -= 1
+        self.scoreboard.prep_ships()
+        if self.stats.ships_left > 0:
             # Purge aliens and bullets.
             self.aliens.empty()
             self.bullets.empty()
