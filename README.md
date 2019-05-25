@@ -5,7 +5,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <p align="center">
-    <a href="https://github.com/othneildrew/Best-README-Template"><img src="images/ship.bmp" alt="Logo" width="80" height="80"></a>
+    <a href="https://github.com/tillchen/Alien_Invasion"><img src="images/ship.bmp" alt="Logo" width="80" height="80"></a>
     <h3 align="center">Alien Invasion!</h3>
     <p align="center">
         A fun python game built using pygame.<br>
