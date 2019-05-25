@@ -1,0 +1,87 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Alien	../alien.py	/^class Alien(Sprite):$/;"	kind:class	line:8
+Alien	../alien_invasion.py	/^from alien import Alien$/;"	kind:namespace	line:13
+AlienInvasion	../alien_invasion.py	/^class AlienInvasion:$/;"	kind:class	line:18
+Bullet	../alien_invasion.py	/^from bullet import Bullet$/;"	kind:namespace	line:12
+Bullet	../bullet.py	/^class Bullet(Sprite):$/;"	kind:class	line:8
+Button	../alien_invasion.py	/^from button import Button$/;"	kind:namespace	line:15
+Button	../button.py	/^class Button:$/;"	kind:class	line:7
+GameStats	../alien_invasion.py	/^from game_stats import GameStats$/;"	kind:namespace	line:14
+GameStats	../game_stats.py	/^class GameStats:$/;"	kind:class	line:5
+Group	../scoreboard.py	/^from pygame.sprite import Group$/;"	kind:namespace	line:6
+Scoreboard	../alien_invasion.py	/^from scoreboard import Scoreboard$/;"	kind:namespace	line:16
+Scoreboard	../scoreboard.py	/^class Scoreboard:$/;"	kind:class	line:10
+Settings	../alien_invasion.py	/^from settings import Settings$/;"	kind:namespace	line:10
+Settings	../settings.py	/^class Settings:$/;"	kind:class	line:5
+Ship	../alien_invasion.py	/^from ship import Ship$/;"	kind:namespace	line:11
+Ship	../scoreboard.py	/^from ship import Ship$/;"	kind:namespace	line:8
+Ship	../ship.py	/^class Ship(Sprite):$/;"	kind:class	line:8
+Sprite	../alien.py	/^from pygame.sprite import Sprite$/;"	kind:namespace	line:6
+Sprite	../bullet.py	/^from pygame.sprite import Sprite$/;"	kind:namespace	line:6
+Sprite	../ship.py	/^from pygame.sprite import Sprite$/;"	kind:namespace	line:6
+__init__	../alien.py	/^    def __init__(self, game):$/;"	kind:member	line:10
+__init__	../alien_invasion.py	/^    def __init__(self):$/;"	kind:member	line:20
+__init__	../bullet.py	/^    def __init__(self, game):$/;"	kind:member	line:10
+__init__	../button.py	/^    def __init__(self, game, msg):$/;"	kind:member	line:9
+__init__	../game_stats.py	/^    def __init__(self, game):$/;"	kind:member	line:7
+__init__	../scoreboard.py	/^    def __init__(self, game):$/;"	kind:member	line:12
+__init__	../settings.py	/^    def __init__(self):$/;"	kind:member	line:7
+__init__	../ship.py	/^    def __init__(self, game):$/;"	kind:member	line:10
+_change_fleet_direction	../alien_invasion.py	/^    def _change_fleet_direction(self): # helper method$/;"	kind:member	line:194
+_check_aliens_bottom	../alien_invasion.py	/^    def _check_aliens_bottom(self):$/;"	kind:member	line:207
+_check_bullet_alien_collisions	../alien_invasion.py	/^    def _check_bullet_alien_collisions(self): # helper method$/;"	kind:member	line:138
+_check_events	../alien_invasion.py	/^    def _check_events(self): # helper method, private with one leading underscore$/;"	kind:member	line:111
+_check_fleet_edges	../alien_invasion.py	/^    def _check_fleet_edges(self): # helper method$/;"	kind:member	line:200
+_check_keydown	../alien_invasion.py	/^    def _check_keydown(self, event): # helper method$/;"	kind:member	line:70
+_check_keyup	../alien_invasion.py	/^    def _check_keyup(self, event): # helper method$/;"	kind:member	line:84
+_check_play_button	../alien_invasion.py	/^    def _check_play_button(self, mouse_pos): # helper method$/;"	kind:member	line:91
+_create_alien	../alien_invasion.py	/^    def _create_alien(self, i, row): # helper method$/;"	kind:member	line:38
+_create_fleet	../alien_invasion.py	/^    def _create_fleet(self): #helper method$/;"	kind:member	line:47
+_fire_bullet	../alien_invasion.py	/^    def _fire_bullet(self): # helper method$/;"	kind:member	line:64
+_prep_msg	../button.py	/^    def _prep_msg(self, msg): # helper method$/;"	kind:member	line:24
+_ship_hit	../alien_invasion.py	/^    def _ship_hit(self): # helper method$/;"	kind:member	line:166
+_update_aliens	../alien_invasion.py	/^    def _update_aliens(self): # helper method$/;"	kind:member	line:184
+_update_bullets	../alien_invasion.py	/^    def _update_bullets(self): # helper method$/;"	kind:member	line:157
+_update_screen	../alien_invasion.py	/^    def _update_screen(self): # helper method$/;"	kind:member	line:124
+alien.py	../alien.py	1;"	kind:file	line:1
+alien_invasion.py	../alien_invasion.py	1;"	kind:file	line:1
+blitme	../ship.py	/^    def blitme(self):$/;"	kind:member	line:35
+bullet.py	../bullet.py	1;"	kind:file	line:1
+button.py	../button.py	1;"	kind:file	line:1
+center_ship	../ship.py	/^    def center_ship(self):$/;"	kind:member	line:39
+check_edges	../alien.py	/^    def check_edges(self):$/;"	kind:member	line:24
+check_high_score	../scoreboard.py	/^    def check_high_score(self):$/;"	kind:member	line:73
+draw_bullet	../bullet.py	/^    def draw_bullet(self):$/;"	kind:member	line:27
+draw_button	../button.py	/^    def draw_button(self):$/;"	kind:member	line:30
+draw_score	../scoreboard.py	/^    def draw_score(self):$/;"	kind:member	line:66
+font	../button.py	/^import pygame.font$/;"	kind:namespace	line:5
+font	../scoreboard.py	/^import pygame.font$/;"	kind:namespace	line:5
+game	../alien_invasion.py	/^    game = AlienInvasion()$/;"	kind:variable	line:227
+game_stats.py	../game_stats.py	1;"	kind:file	line:1
+init_dynamic_settings	../settings.py	/^    def init_dynamic_settings(self):$/;"	kind:member	line:26
+prep_high_score	../scoreboard.py	/^    def prep_high_score(self):$/;"	kind:member	line:38
+prep_level	../scoreboard.py	/^    def prep_level(self):$/;"	kind:member	line:48
+prep_score	../scoreboard.py	/^    def prep_score(self):$/;"	kind:member	line:28
+prep_ships	../scoreboard.py	/^    def prep_ships(self):$/;"	kind:member	line:57
+pygame	../alien.py	/^import pygame$/;"	kind:namespace	line:5
+pygame	../alien_invasion.py	/^import pygame$/;"	kind:namespace	line:8
+pygame	../bullet.py	/^import pygame$/;"	kind:namespace	line:5
+pygame	../button.py	/^import pygame.font$/;"	kind:namespace	line:5
+pygame	../scoreboard.py	/^import pygame.font$/;"	kind:namespace	line:5
+pygame	../ship.py	/^import pygame$/;"	kind:namespace	line:5
+reset_stats	../game_stats.py	/^    def reset_stats(self):$/;"	kind:member	line:20
+run_game	../alien_invasion.py	/^    def run_game(self):$/;"	kind:member	line:215
+scoreboard.py	../scoreboard.py	1;"	kind:file	line:1
+settings.py	../settings.py	1;"	kind:file	line:1
+ship.py	../ship.py	1;"	kind:file	line:1
+sleep	../alien_invasion.py	/^from time import sleep$/;"	kind:namespace	line:6
+speed_up	../settings.py	/^    def speed_up(self):$/;"	kind:member	line:35
+sys	../alien_invasion.py	/^import sys$/;"	kind:namespace	line:5
+update	../alien.py	/^    def update(self):$/;"	kind:member	line:30
+update	../bullet.py	/^    def update(self):$/;"	kind:member	line:22
+update	../ship.py	/^    def update(self):$/;"	kind:member	line:27
