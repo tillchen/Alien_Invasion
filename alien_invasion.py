@@ -97,7 +97,7 @@ class AlienInvasion:
             self.ship.moving_right = True # set the flag to true
         elif event.key == pygame.K_LEFT:
             self.ship.moving_left = True # set the flag to true
-        elif event.key == pygame.K_q: # press q to quit
+        elif event.key == pygame.K_q or event.key == pygame.K_ESCAPE: # press q or escape to quit
             # Save the high score before quiting
             with open("high_score.txt", "w") as file_obj:
                 file_obj.write(str(self.stats.high_score))

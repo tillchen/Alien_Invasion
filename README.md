@@ -83,7 +83,7 @@ Plus, it strenthened my coding skills in Python and my love for programming :gri
 2. Click **Play** to start.
 3. Press **<-** and **->** to control the positions of the ship.
 4. Press **space** key to fire a bullet and kill an alien. Try to kill all aliens in the window.
-5. Press **q** to quit the game.
+5. Press **q** or **esc** to quit the game.
 6. Only **3 bullets** are allowed to be present in the same window. So try to be as accurate as possible.
 7. For every game, you have **3 ships**. If an anlien hits your ship or hits the bottom, you'll lose a ship. And the game'll restart at the same level. You'll lose the game if all 3 ships are gone.
 8. As the level goes up, the speed of the game and the point you get for each killed alien also goes up.
