@@ -94,6 +94,7 @@ class AlienInvasion:
             self.stats.reset_stats()
             self.stats.game_active = True
             self.scoreboard.prep_score()
+            self.scoreboard.prep_level()
             # Purge aliens and bullets.
             self.aliens.empty()
             self.bullets.empty()
@@ -145,6 +146,9 @@ class AlienInvasion:
             self.bullets.empty()
             self._create_fleet()
             self.settings.speed_up()
+            # increase the level.
+            self.stats.level += 1
+            self.scoreboard.prep_level()
 
     def _update_bullets(self): # helper method
         """Update the positions of bullets and delete old bullets."""
