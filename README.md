@@ -17,17 +17,17 @@
 <!-- TABLE OF CONTENTS -->
 # Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
-  - [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+* [Table of Contents](#Table-of-Contents)
+* [About The Project](#About-The-Project)
+  * [Built With](#Built-With)
+* [Getting Started](#Getting-Started)
+  * [Prerequisites](#Prerequisites)
+  * [Installation](#Installation)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [License](#License)
+* [Contact](#Contact)
+* [Acknowledgements](#Acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 # About The Project
